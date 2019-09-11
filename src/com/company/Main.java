@@ -24,6 +24,7 @@ public class Main {
             // STEP 1: Register JDBC driver
             Class.forName(JDBC_DRIVER);
 
+
             //STEP 2: Open a connection
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
 
